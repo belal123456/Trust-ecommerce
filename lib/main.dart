@@ -16,7 +16,7 @@ class Home extends StatelessWidget {
           title: const Text("My App"),
         ),
         body: const Center(
-          child: Text("Hello World"),
+          child: Text(" World"),
         ),
       ),
     );
