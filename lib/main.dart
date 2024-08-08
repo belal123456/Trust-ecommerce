@@ -14,7 +14,7 @@ class Home extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       onGenerateRoute: ongenerateRoute,
-      initialRoute: Splash.routeName,
+      initialRoute: SplashViewBody.routeName,
     );
   }
 }

@@ -6,6 +6,10 @@ class OnBoarding extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Placeholder();
+    return const Scaffold(
+      body: Center(
+        child: Text('OnBoarding'),
+      ),
+    );
   }
 }

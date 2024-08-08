@@ -4,8 +4,8 @@ import 'package:trust_ecommerce/splash/presentation/views/splash.dart';
 
 Route<dynamic> ongenerateRoute(RouteSettings settings) {
   switch (settings.name) {
-    case Splash.routeName:
-      return MaterialPageRoute(builder: (context) => const Splash());
+    case SplashViewBody.routeName:
+      return MaterialPageRoute(builder: (context) => const SplashViewBody());
     case OnBoarding.routeName:
       return MaterialPageRoute(builder: (context) => const OnBoarding());
     default:
