@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:trust_ecommerce/core/helper_function/on_generate_route.dart';
+import 'package:trust_ecommerce/splash/presentation/views/splash.dart';
 
 void main() {
   runApp(const Home());
@@ -9,16 +11,10 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text("My App"),
-        ),
-        body: const Center(
-          child: Text(" World"),
-        ),
-      ),
+      onGenerateRoute: ongenerateRoute,
+      initialRoute: Splash.routeName,
     );
   }
 }
