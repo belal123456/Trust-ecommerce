@@ -28,7 +28,7 @@ class SplashViewBody extends StatelessWidget {
       nextScreen: const OnBoarding(),
       splashIconSize: splashIconSize,
       splashTransition: SplashTransition.scaleTransition,
-      duration: 8000,
+      duration: 7500,
       backgroundColor: Colors.red.shade100,
     );
   }
