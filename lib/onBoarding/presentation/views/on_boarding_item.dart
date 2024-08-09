@@ -17,6 +17,7 @@ class OnBoardingItem extends StatelessWidget {
           ),
           Text(
             "Trust Factory is a pioneer in the women's footwear industry in Egypt and the Middle East, established in 1996 by Egyptian hands.",
+            textAlign: TextAlign.center,
             style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
