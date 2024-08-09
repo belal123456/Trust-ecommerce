@@ -9,10 +9,7 @@ class OnBoarding extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.blue.shade100,
-          elevation: 0,
-        ),
-        body: OnBoardingViewBody());
+      body: OnBoardingViewBody(),
+    );
   }
 }
